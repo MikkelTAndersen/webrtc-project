@@ -9,19 +9,29 @@ Google provides [webrtc git source] project that the camfire webrtc repository a
 
 # Instructions
 `gclient sync`
-`GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64" gclient runhooks --force`
+
+     GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64" gclient runhooks --force`
+
 `ninja -C out/Debug libjingle_peerconnection_test_jar`
 
 # Requirements
 
-*gyp
-*depot_tools
+* gyp
 
-[webrtc git source]: https://chromium.googlesource.com/external/webrtc
-[webrtc source]: https://code.google.com/p/webrtc/ 
+* depot_tools
 
 # Additional Notes
 
 The gclient configuration was generated with the following command:
 
 `gclient config http://webrtc.googlecode.com/svn/trunk/ --name trunk`
+
+This repository links to the webrtc git projects. The main webrtc project is a svn project that uses gyp. I had to be
+a little bit tricky to get things to work. I referenced the instructions for [devtools save].
+
+
+
+[webrtc git source]: https://chromium.googlesource.com/external/webrtc
+[webrtc source]: https://code.google.com/p/webrtc/ 
+[devtools_save]: https://code.google.com/p/devtools-save/wiki/BuildingDevToolsSave
+
