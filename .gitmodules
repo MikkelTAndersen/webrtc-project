@@ -1,0 +1,4 @@
+[submodule "webrtc"]
+	path = webrtc
+	url = git@github.com:camfire/webrtc.git
+	branch = master
