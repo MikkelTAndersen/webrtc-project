@@ -33,5 +33,5 @@ a little bit tricky to get things to work. I referenced the instructions for [de
 
 [webrtc git source]: https://chromium.googlesource.com/external/webrtc
 [webrtc source]: https://code.google.com/p/webrtc/ 
-[devtools_save]: https://code.google.com/p/devtools-save/wiki/BuildingDevToolsSave
+[devtools save]: https://code.google.com/p/devtools-save/wiki/BuildingDevToolsSave
 
