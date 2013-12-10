@@ -5,7 +5,7 @@ Wraps the webrtc repository and includes the required project files needed to bu
 
 The gclient configuration was gnerated with the following command:
 
-`gclient config http://webrtc.googlecode.com/svn/trunk/ --name webrtc`
+`gclient config http://webrtc.googlecode.com/svn/trunk/ --name trunk`
 
 
 More information can be found at the original [webrtc source].
