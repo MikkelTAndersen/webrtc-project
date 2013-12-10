@@ -1,4 +1,0 @@
-[submodule "trunk"]
-	path = trunk
-	url = git@github.com:camfire/webrtc-project.git
-	branch = master

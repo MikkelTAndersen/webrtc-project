@@ -1,0 +1,3 @@
+entries = {
+  'trunk': 'http://webrtc.googlecode.com/svn/trunk',
+}
