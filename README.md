@@ -10,9 +10,9 @@ Google provides [webrtc git source] project that the camfire webrtc repository a
 # Instructions
 `gclient sync`
 
-     GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64" gclient runhooks --force
+     GYP_DEFINES="libjingle_java=1 build_with_libjingle=1 build_with_chromium=0 target_arch=x64 java_home=/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home" gclient runhooks --force
 
-`ninja -C out/Debug libjingle_peerconnection_test_jar`
+`ninja -C out/Debug libjingle_peerconnection_jar`
 
 # Requirements
 
