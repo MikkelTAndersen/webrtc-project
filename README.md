@@ -17,7 +17,7 @@ Google provides [webrtc git source] project that the camfire webrtc repository a
 After compilation you will have a system object file and a jar. You need to install the .so file and then place the jar in your project.
 Using osx you need to rename the .so file to .jnilib. For example:
 
-`cp /Users/jonathan/code/active/libjingle/trunk/out/Debug/jingle_peerconnection_so.so /usr/lib/java/libjingle_peerconnection_so.jnilib`
+    cp /Users/jonathan/code/active/libjingle/trunk/out/Debug/jingle_peerconnection_so.so /usr/lib/java/libjingle_peerconnection_so.jnilib
 
 # Requirements
 
